@@ -83,14 +83,14 @@ header nav a:hover{
 .div-menu a{
     font-size: 20px;
     font-weight: 200;
-    color: #000000;
+    color: #000000ac;
     font-family: "JetBrains", monospace;
 }
 
 .div-menu a:hover{
     transition: .5s;
     color: #000000;
-    font-weight: 550;
+    font-weight: 200;
 }
 
 .div-menu div{
