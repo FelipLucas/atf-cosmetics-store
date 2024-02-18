@@ -157,7 +157,7 @@ header nav a:hover{
     background-color: #ffffff;
 }
 
-.section-content1{
+#section-content1{
     display: flex;
     padding-top: 20px;
     justify-content: center;
