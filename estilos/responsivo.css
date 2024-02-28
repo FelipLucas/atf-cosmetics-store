@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 @media only screen and (max-width: 768px){
     header{
         flex-direction: column;
@@ -45,11 +45,20 @@
     }
     .div-column-final{
         align-items: center;
+        display: flex;
         justify-content: center;
         margin-right: 0;
     }
     form{
         align-items: center;
         justify-content: center;   
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1900px){
+    #section-container::after{
+        display: none;
+        height: 100%;
     }
 }

@@ -107,21 +107,24 @@ header nav a:hover{
     display: flex;
     flex-direction: column;
     padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-bottom: 0rem;
     padding-left: 20rem;
     background-image: url(../images/WhatsApp\ Image\ 2024-02-15\ at\ 14.39.06.jpeg);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 45rem;
+    
+
 }
 
-#section-container::after{
+#section-container::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 59.5%;
+    height: 100%;
     background: linear-gradient(35deg, rgba(0,0,0, .85), rgba(0,0,0, 0.4) 100%, transparent 65%) ;
 }
 
