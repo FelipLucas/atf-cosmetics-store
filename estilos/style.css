@@ -141,6 +141,12 @@ header nav a:hover{
     z-index: 1;
 }
 
+.primeiro{
+    color: #ffffff;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #b75916;
+}
+
 .a-selection:hover{
     transition: .5s;
     color: #ffffff;
@@ -148,10 +154,8 @@ header nav a:hover{
     border-bottom: 2px solid #b75916;
 }
 
-.link-all{
-    color: #ffffff;
-    padding-bottom: 7px;
-    border-bottom: 2px solid #b75916;
+.a-selection ~ .primeiro{
+    
 }
 
 .section-content{
