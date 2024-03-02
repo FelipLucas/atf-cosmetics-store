@@ -141,21 +141,17 @@ header nav a:hover{
     z-index: 1;
 }
 
-.primeiro{
+.all-link{
     color: #ffffff;
-    padding-bottom: 7px;
+    padding-bottom: 0px;
     border-bottom: 2px solid #b75916;
 }
 
 .a-selection:hover{
     transition: .5s;
     color: #ffffff;
-    padding-bottom: 7px;
+    padding-bottom: 0px;
     border-bottom: 2px solid #b75916;
-}
-
-.a-selection ~ .primeiro{
-    
 }
 
 .section-content{
