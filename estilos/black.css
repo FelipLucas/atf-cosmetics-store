@@ -11,10 +11,12 @@
 body{
     width: 85%;
     height: 85%;
-    margin-top: 10rem;
     background-color: #ffffff;
-    margin-left: 10rem;
-    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
 }
 
 html{
